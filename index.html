@@ -1,0 +1,519 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>project 01</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+html,body,h1,h2,h3,h4 {font-family:"Lato", sans-serif}
+.mySlides {display:none}
+.w3-tag, .fa {cursor:pointer}
+.w3-tag {height:15px;width:15px;padding:0;margin-top:6px}
+.photos1{
+        background-color: antiquewhite;
+        background: yellowgreen;
+}
+.container{
+              display: flex;
+              position: relative;
+               z-index: 1;
+               margin-top: -80px;
+               width: 80%;
+               gap: 30px;
+              border-radius: 10%;
+           
+}
+.contest-01{
+      padding: 20px;
+      color: rgb(23, 130, 192);
+     }
+       .categories {
+
+        display: flex;
+        gap: 30px;
+        padding-bottom: 200px;
+        justify-content: space-around;
+       }
+         
+        
+      .last-cont{
+        background-image: url(./closed-bg.jpg);
+        display: flex;
+        gap: 30px;
+        justify-content: space-around;
+        
+      }
+      font1{
+        color: rgb(189, 224, 255);
+            position: absolute;
+            padding-left: 350px;
+          padding-top: 150px;
+          border-radius: 8px;
+          font-size: 50px;
+          letter-spacing: 1px;
+          font-weight: 600;
+      }
+       .font{
+          position: absolute;
+          padding-left: 200px;
+          padding-top: 100px;
+          color: rgb(0, 183, 255);
+          border-radius: 8px;
+          font-size: 50px;
+          letter-spacing: 1px;
+          font-weight: 600;
+            
+       }
+       .snapx{
+          position: absolute;
+          padding-left: 300px; 
+          padding-top: 450px;
+      border-radius: 8px;
+      font-size: 18px;
+      letter-spacing: 1px;
+      font-weight: 600;
+      color: rgb(140, 0, 255)
+         }
+         .fontf01{
+        position: absolute; 
+        color: aliceblue ;
+         padding-top: 400px;
+         padding-left: 100px;
+         font-size: medium;
+       }
+       .font1{
+        color: rgb(189, 224, 255);
+            position: absolute;
+            padding-left: 350px;
+          padding-top: 150px;
+          border-radius: 8px;
+          font-size: 50px;
+          letter-spacing: 1px;
+          font-weight: 600;
+      }
+</style>
+</head>
+<body>
+
+
+<div class="w3-top">
+  
+  <div class="w3-row w3-large w3-light-grey">
+    <div class="w3-col s3">
+      <a href="#" class="w3-button w3-block">Home</a>
+    </div>
+    <div class="w3-col s3">
+      <a href="#plans" class="w3-button w3-block">Plans</a>
+    </div>
+    <div class="w3-col s3">
+      <a href="#about" class="w3-button w3-block">About</a>
+    </div>
+    <div class="w3-col s3">
+      <a href="#contact" class="w3-button w3-block">Contact</a>
+    </div>
+  </div>
+</div>
+<div class="main" id="main01">
+<h1 class="font" >Enter <span style="color: rgb(45, 116, 156);">a world </span> of Photos & Amazing</h1> 
+   <h1 class="font1">Awards</h1>
+   <p class="fontf01">Snapx Photography is a professional website with 5 different HTML pages for maximum customnination.it is free for commercial</p>
+  <p class="snapx" > <button>Explore Snapx Contest</button></p>
+  
+       <img src="./banner-bg (1).jpg" width="100%">
+      </div>
+  <div class="w3-container">
+    <div class="w3-display-container mySlides">
+      <img src="./featured-01.jpg" style="width:100%" >
+      <div class="w3-display-topleft w3-container w3-padding-32">
+        <span class="w3-white w3-padding-large w3-animate-bottom">Landscape</span>
+      </div>
+    </div>
+    <div class="w3-display-container mySlides">
+      <img src="./featured-02.jpg" style="width:100%" >
+      <div class="w3-display-middle w3-container w3-padding-32">
+        <span class="w3-white w3-padding-large w3-animate-bottom"> Art</span>
+      </div>
+    </div>
+    <div class="w3-display-container mySlides">
+      <img src="./featured-03.jpg" style="width:100%" >
+      <div class="w3-display-topright w3-container w3-padding-32">
+        <span class="w3-white w3-padding-large w3-animate-bottom">Fashion</span>
+      </div>
+    </div>
+
+     <div class="w3-container w3-dark-grey w3-padding w3-xlarge">
+      <div class="w3-left" onclick="plusDivs(-1)"><i class="fa fa-arrow-circle-left w3-hover-text-teal"></i></div>
+      <div class="w3-right" onclick="plusDivs(1)"><i class="fa fa-arrow-circle-right w3-hover-text-teal"></i></div>
+    
+      <div class="w3-center">
+        <span class="w3-tag demodots w3-border w3-transparent w3-hover-white" onclick="currentDiv(1)"></span>
+        <span class="w3-tag demodots w3-border w3-transparent w3-hover-white" onclick="currentDiv(2)"></span>
+        <span class="w3-tag demodots w3-border w3-transparent w3-hover-white" onclick="currentDiv(3)"></span>
+      </div>
+    </div>
+  </div>
+  
+  <div class="contest-01">
+    <h3>Our categories </h3>
+    <h2>Check out Popular Content categories</h2>
+  </div>
+   <div class="categories" id="carts01">
+      <div class="cats1">
+        <img src="./icon-01.png">
+        <p><b>Natural pic contest</b></p>
+        <img height="250vh" width="200vh" src="./featured-image-01.jpg" alt="01">
+        <p><b>BrowsePic Contest</b></p></div>
+      <div  class="cats1">
+        <img src="./icon-02.png">
+        <p><b>Random pic Contest</b></p>
+        <img height="250vh" width="200vh" src="./featured-image-02.jpg" alt="02">
+        <p><b>BrowsePic Contest</b></p></div>
+      <div  class="cats1">
+        <img src="./icon-04.png">
+        <p><b>Portrait Pic Contest</b></p>
+        <img height="250vh" width="200vh" src="./featured-image-03.jpg" alt="03">
+        <p><b>BrowsePic Contest</b></p></div>
+      <div  class="cats1">
+        <img src="./icon-04.png">
+        <p><b>Space pic Contest</b></p>
+        <img height="250vh" width="200vh" src="featured-image-04.jpg" alt="04">
+        <p><b>BrowsePic Contest</b></p></div>
+      
+   </div>
+   
+   
+  
+  
+    <div class="Message">
+      <div class="w3-center" align="center">
+     <h3>closed Photography Contests</h3>
+     <h1>Previous Contests with Handipicked Winner</h1>
+  </div>
+</div>
+
+  <div class="last-cont" id="stcont">
+  <div class="lst">
+  <img src="./closed-01.jpg" alt="">
+  <pre><b>     96 participate     410 picture </b></p>
+</div>
+ <div class="lst">  <img src="closed-02.jpg" alt="">
+  <pre><b>     76 participate     210 picture </b></p></div>
+
+
+   <div class="lst"><img src="closed-03.jpg" alt="">
+    <pre><b>     88 participate     320 picture </b></p></div>
+</div> 
+
+
+  <div class="w3-row w3-container">
+    <div class="w3-center w3-padding-64">
+      <span class="w3-xlarge w3-bottombar w3-border-dark-grey w3-padding-16">What We Offer</span>
+    </div>
+    <div class="w3-col l3 m6 w3-light-grey w3-container w3-padding-16">
+      <h3>Design</h3>
+      <p>Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse sodales pellentesque elementum.</p>
+    </div>
+
+    <div class="w3-col l3 m6 w3-grey w3-container w3-padding-16">
+      <h3>Branding</h3>
+      <p>Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse sodales pellentesque elementum.</p>
+    </div>
+
+    <div class="w3-col l3 m6 w3-dark-grey w3-container w3-padding-16">
+      <h3>Consultation</h3>
+      <p>Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse sodales pellentesque elementum.</p>
+    </div>
+
+    <div class="w3-col l3 m6 w3-black w3-container w3-padding-16">
+      <h3>Promises</h3>
+      <p>Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse sodales pellentesque elementum.</p>
+    </div>
+  </div>
+
+  
+  <div class="w3-row-padding" id="plans">
+    <div class="w3-center w3-padding-64">
+      <h3>Pricing Plans</h3>
+      <p>Choose a pricing plan that fits your needs.</p>
+    </div>
+
+    <div class="w3-third w3-margin-bottom">
+      <ul class="w3-ul w3-border w3-center w3-hover-shadow">
+        <a img src="./contest-04.jpg"></a>
+        <li class="w3-black w3-xlarge w3-padding-32">Basic plan</li>
+        <li class="w3-padding-16"><b>10GB</b> shooting storage</li>
+        <li class="w3-padding-16"><b>photos and videos</b>Email</li>
+        <li class="w3-padding-16"><b>Endless</b> Support</li>
+        <li class="w3-padding-16">
+          <h2 class="w3-wide">$ 10</h2>
+          <span class="w3-opacity"> choose this plan </span>
+
+
+
+        </li>
+        <li class="w3-light-grey w3-padding-24">
+          <button class="w3-button w3-green w3-padding-large">Sign Up</button>
+        </li>
+      </ul>
+    </div>
+
+    <div class="w3-third w3-margin-bottom">
+      <ul class="w3-ul w3-border w3-center w3-hover-shadow">
+        <li class="w3-dark-grey w3-xlarge w3-padding-32">Standard Plan</li>
+        <li class="w3-padding-16"><b>25GB</b> Storage</li>
+        <li class="w3-padding-16"><b>photos and videos</b> Email</li>
+        
+        <li class="w3-padding-16"><b>Endless</b> Support</li>
+        <li class="w3-padding-16">
+          <h2 class="w3-wide">$ 25</h2>
+          <span class="w3-opacity"> choose this plan </span>
+
+          
+        </li>
+        <li class="w3-light-grey w3-padding-24">
+          <button class="w3-button w3-green w3-padding-large">Sign Up</button>
+        </li>
+      </ul>
+    </div>
+
+    <div class="w3-third w3-margin-bottom">
+      <ul class="w3-ul w3-border w3-center w3-hover-shadow">
+        <li class="w3-black w3-xlarge w3-padding-32">Advanced Plan</li>
+        <li class="w3-padding-16"><b>50GB</b> Storage</li>
+        <li class="w3-padding-16"><b>Photos and videos</b> Emails</li>
+        <li class="w3-padding-16"><b>Endless</b> Support</li>
+        <li class="w3-padding-16">
+          <h2 class="w3-wide">$ 50</h2>
+          <span class="w3-opacity"> choose this plan </span>
+        </li>
+        <li class="w3-light-grey w3-padding-24">
+          <button class="w3-button w3-green w3-padding-large">Sign Up</button>
+        </li>
+      </ul>
+    </div>
+  </div>
+
+  <!-- Grid -->
+  <div class="w3-row-padding" id="about">
+    <div class="w3-center w3-padding-64">
+      <span class="w3-xlarge w3-bottombar w3-border-dark-grey w3-padding-16">Who We Are</span>
+    </div>
+
+    <div class="w3-third w3-margin-bottom">
+      <div class="w3-card-4">
+        <img src="./banner-bg (1).jpg" alt="John" style="width:100%">
+        <div class="w3-container">
+          <h3>Jane Doe</h3>
+          <p class="w3-opacity">CEO & Founder</p>
+          <p>Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse sodales pellentesque elementum.</p>
+          <p><button class="w3-button w3-light-grey w3-block">Contact</button></p>
+        </div>
+      </div>
+    </div>
+
+    <div class="w3-third w3-margin-bottom">
+      <div class="w3-card-4">
+        <img src="./closed-bg.jpg" alt="Mike" style="width:100%">
+        <div class="w3-container">
+          <h3>Mike Ross</h3>
+          <p class="w3-opacity">Art Director</p>
+          <p>Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse sodales pellentesque elementum.</p>
+          <p><button class="w3-button w3-light-grey w3-block">Contact</button></p>
+        </div>
+      </div>
+    </div>
+
+    <div class="w3-third w3-margin-bottom">
+      <div class="w3-card-4">
+        <img src="./contest-01.jpg" alt="Jane" style="width:100%">
+        <div class="w3-container">
+          <h3>John Doe</h3>
+          <p class="w3-opacity">Designer</p>
+          <p>Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse sodales pellentesque elementum.</p>
+          <p><button class="w3-button w3-light-grey w3-block">Contact</button></p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Contact -->
+  <div class="w3-center w3-padding-64" id="contact">
+    <span class="w3-xlarge w3-bottombar w3-border-dark-grey w3-padding-16">Contact Us</span>
+  </div>
+
+  <form class="w3-container" action="/action_page.php" target="_blank">
+    <div class="w3-section">
+      <label>Name</label>
+      <input class="w3-input w3-border w3-hover-border-black" style="width:100%;" type="text" name="Name" required>
+    </div>
+    <div class="w3-section">
+      <label>Email</label>
+      <input class="w3-input w3-border w3-hover-border-black" style="width:100%;" type="text" name="Email" required>
+    </div>
+    <div class="w3-section">
+      <label>Subject</label>
+      <input class="w3-input w3-border w3-hover-border-black" style="width:100%;" name="Subject" required>
+    </div>
+    <div class="w3-section">
+      <label>Message</label>
+      <input class="w3-input w3-border w3-hover-border-black" style="width:100%;" name="Message" required>
+    </div>
+    <button type="submit" class="w3-button w3-block w3-black">Send</button>
+  </form>
+
+</div>
+
+<!-- Footer -->
+
+<footer class="w3-container w3-padding-32 w3-light-grey w3-center">
+  <h4>Footer</h4>
+  <a href="#" class="w3-button w3-black w3-margin"><i class="fa fa-arrow-up w3-margin-right"></i>To the top</a>
+  <div class="w3-xlarge w3-section">
+    <i class="fa fa-facebook-official w3-hover-opacity"></i>
+    <i class="fa fa-instagram w3-hover-opacity"></i>
+    <i class="fa fa-snapchat w3-hover-opacity"></i>
+    <i class="fa fa-pinterest-p w3-hover-opacity"></i>
+  <i class="fa fa-twitter w3-hover-opacity"></i>
+      <i class="fa fa-linkedin w3-hover-opacity"></i>
+  </div>
+  <p>Powered by <a href="https://www.w3schools.com/w3css/default.asp" title="W3.CSS" target="_blank" class="w3-hover-text-green">copyright@2000</a></p>
+</footer>
+
+
+<!-- <script>
+
+var slideIndex = 1;
+showDivs(slideIndex);
+
+function plusDivs(n) {
+  showDivs(slideIndex += n);
+}
+
+function currentDiv(n) {
+  showDivs(slideIndex = n);
+}
+
+function showDivs(n) {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("demodots");
+  if (n > x.length) {slideIndex = 1}    
+  if (n < 1) {slideIndex = x.length} ;
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";  
+  }
+  for (i = 0; i < dots.length; i++) {
+    dots[i].className = dots[i].className.replace(" w3-white", "");
+  }
+  x[slideIndex-1].style.display = "block";  
+  dots[slideIndex-1].className += " w3-white";
+}
+</script> -->
+<!-- <div class="pln" style="display: flex; width: 100%;">
+      <div class="plans">
+        <ul class="w3-ul w3-border w3-center w3-hover-shadow">
+          <a img src="./contest-04.jpg"></a>
+          <li class="w3-dark-grey w3-xlarge w3-padding-32" style="background-image: url(./pricing-01.jpg) ;"></li>
+          <li class="w3-padding-16"><b> Basic plan 10GB</b> shooting storage</li>
+          <li class="w3-padding-16"><b>photos and videos</b>Email</li>
+          <li class="w3-padding-16"><b>Endless</b> Support</li>
+          <li class="w3-padding-16">
+            <h2 class="w3-wide">$ 10</h2>
+            <span class="w3-opacity"> choose this plan </span>
+  
+  
+  
+          </li>
+          <li class="w3-light-grey w3-padding-24">
+            <button class="w3-button w3-green w3-padding-large">Sign Up</button>
+          </li>
+        </ul>
+      </div>
+   
+      <div class="plans">
+        <ul class="w3-ul w3-border w3-center">
+          <li class="w3-dark-grey w3-xlarge w3-padding-32" style="background-image: url(./pricing-02.jpg);">Standard Plan</li>
+          <li class="w3-padding-16"><b>25GB</b> Storage</li>
+          <li class="w3-padding-16"><b>photos and videos</b> Email</li>
+          
+          <li class="w3-padding-16"><b>Endless</b> Support</li>
+          <li class="w3-padding-16">
+            <h2 class="w3-wide">$ 25</h2>
+            <span class="w3-opacity"> choose this plan </span>
+  
+            
+          </li>
+          <li class="w3-light-grey w3-padding-24">
+            <button class="w3-button w3-green w3-padding-large">Sign Up</button>
+          </li>
+        </ul>
+      </div>
+  
+      <div class="plans">
+        <ul class="w3-ul w3-border w3-center w3-hover-shadow">
+          <li class="w3-black w3-xlarge w3-padding-32" style="background-image: url(./pricing-03.jpg);">Advanced Plan</li>
+          <li class="w3-padding-16"><b>50GB</b> Storage</li>
+          <li class="w3-padding-16"><b>Photos and videos</b> Emails</li>
+          <li class="w3-padding-16"><b>Endless</b> Support</li>
+          <li class="w3-padding-16">
+            <h2 class="w3-wide">$ 50</h2>
+            <span class="w3-opacity"> choose this plan </span>
+          </li>
+          <li class="w3-light-grey w3-padding-24">
+            <button class="w3-button w3-green w3-padding-large">Sign Up</button>
+          </li>
+        </ul>
+      </div>
+    </div>
+     </div>
+    </div> -->
+     <!-- <div class="ppl" style="display: flex; width: 100%; " >
+  <div style=" justify-content:space-between; gap: 20px; border-radius: 20%;">
+       <div class="plan1" style="border: 2px solid;  border-radius: 10px; width: 100%;">
+      <img src="./pricing-01.jpg" alt="pln">
+        <pre style="font-size: large;">      <b>Basic plan</b></pre>
+         <pre>  secialized services like 
+    wedding or commercial
+   photography often come 
+       with higher</pre>
+
+           <h1 style="padding-left: 30px;">$25 USD</h1>
+
+              </div>
+            </div>
+
+            <div style=" justify-content:space-between; gap: 20px; border-radius: 20%;">
+              <div class="plan1" style="border: 2px solid;  border-radius: 10px; width: 100%;">
+             <img src="./pricing-01.jpg" alt="pln">
+               <pre style="font-size: large;">      <b>Standard plan</b></pre>
+                <pre>  secialized services like 
+  wedding photography with 
+          higher
+      
+        </pre>
+      
+                  <h1 style="padding-left: 30px;">$25 USD</h1>
+       
+                     </div>
+                   </div> 
+                   
+  <div style="justify-content:space-between; gap: 20px; border-radius: 20%;">
+    <div class="plan1" style="border: 2px solid;  border-radius: 10px; width: 100%;">
+   <img src="./pricing-01.jpg" alt="pln">
+     <pre style="font-size: large;">      <b>Advanced plan</b></pre>
+      <pre>  secialized services like 
+ wedding or commercial
+photography often come 
+    with higher</pre>
+
+        <h1 style="padding-left: 30px;">$25 USD</h1>
+
+           </div>
+         </div>
+        </div> -->
+
+</body>
+</html>
